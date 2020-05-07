@@ -7,6 +7,7 @@ namespace NodeEditorFramework.BurstLibNoiseEditor
 	public abstract class BurstLibNoiseModule : Node
 	{
 		public override Vector2 DefaultSize { get { return new Vector2(120, 230); } }
+		// public override bool AutoLayout { get { return true; } }
         
 		[System.NonSerialized]
 		public Texture2D tex;
