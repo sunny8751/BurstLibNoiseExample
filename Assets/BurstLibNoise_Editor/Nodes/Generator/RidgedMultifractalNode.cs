@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Generator/RidgedMultifractal")]
-	public class RidgedMultifractalNode : BurstLibNoiseModule
+	public class RidgedMultifractalNode : BurstLibNoiseNode
 	{
 		public const string ID = "ridgedMultifractalNode";
 		public override string GetID { get { return ID; } }

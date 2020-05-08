@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Operator/ScaleBias")]
-	public class ScaleBiasNode : BurstLibNoiseModule
+	public class ScaleBiasNode : BurstLibNoiseNode
 	{
 		public const string ID = "scaleBiasNode";
 		public override string GetID { get { return ID; } }

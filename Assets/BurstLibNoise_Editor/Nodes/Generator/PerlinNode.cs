@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Generator/Perlin")]
-	public class PerlinNode : BurstLibNoiseModule
+	public class PerlinNode : BurstLibNoiseNode
 	{
 		public const string ID = "perlinNode";
 		public override string GetID { get { return ID; } }

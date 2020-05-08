@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Operator/Max")]
-	public class MaxNode : BurstLibNoiseModule
+	public class MaxNode : BurstLibNoiseNode
 	{
 		public const string ID = "maxNode";
 		public override string GetID { get { return ID; } }

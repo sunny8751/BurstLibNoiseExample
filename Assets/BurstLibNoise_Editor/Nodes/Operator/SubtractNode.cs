@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Operator/Subtract")]
-	public class SubtractNode : BurstLibNoiseModule
+	public class SubtractNode : BurstLibNoiseNode
 	{
 		public const string ID = "subtractNode";
 		public override string GetID { get { return ID; } }

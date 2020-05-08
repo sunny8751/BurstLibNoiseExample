@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Generator/Billow")]
-	public class BillowNode : BurstLibNoiseModule
+	public class BillowNode : BurstLibNoiseNode
 	{
 		public const string ID = "billowNode";
 		public override string GetID { get { return ID; } }

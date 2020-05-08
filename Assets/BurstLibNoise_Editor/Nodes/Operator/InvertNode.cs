@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Operator/Invert")]
-	public class InvertNode : BurstLibNoiseModule
+	public class InvertNode : BurstLibNoiseNode
 	{
 		public const string ID = "invertNode";
 		public override string GetID { get { return ID; } }

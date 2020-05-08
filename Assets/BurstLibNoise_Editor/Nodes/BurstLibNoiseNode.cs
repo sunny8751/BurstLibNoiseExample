@@ -4,7 +4,7 @@ using UnityEditor;
 
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
-	public abstract class BurstLibNoiseModule : Node
+	public abstract class BurstLibNoiseNode : Node
 	{
 		public override Vector2 DefaultSize { get { return new Vector2(120, 230); } }
 		// public override bool AutoLayout { get { return true; } }

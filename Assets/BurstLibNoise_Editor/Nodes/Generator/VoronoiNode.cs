@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Generator/Voronoi")]
-	public class VoronoiNode : BurstLibNoiseModule
+	public class VoronoiNode : BurstLibNoiseNode
 	{
 		public const string ID = "voronoiNode";
 		public override string GetID { get { return ID; } }

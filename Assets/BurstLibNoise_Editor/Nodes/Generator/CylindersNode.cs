@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Generator/Cylinders")]
-	public class CylindersNode : BurstLibNoiseModule
+	public class CylindersNode : BurstLibNoiseNode
 	{
 		public const string ID = "cylindersNode";
 		public override string GetID { get { return ID; } }

@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Operator/Rotate")]
-	public class RotateNode : BurstLibNoiseModule
+	public class RotateNode : BurstLibNoiseNode
 	{
 		public const string ID = "rotateNode";
 		public override string GetID { get { return ID; } }

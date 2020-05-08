@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Operator/Translate")]
-	public class TranslateNode : BurstLibNoiseModule
+	public class TranslateNode : BurstLibNoiseNode
 	{
 		public const string ID = "translateNode";
 		public override string GetID { get { return ID; } }

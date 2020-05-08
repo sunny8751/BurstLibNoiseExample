@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Operator/Exponent")]
-	public class ExponentNode : BurstLibNoiseModule
+	public class ExponentNode : BurstLibNoiseNode
 	{
 		public const string ID = "exponentNode";
 		public override string GetID { get { return ID; } }

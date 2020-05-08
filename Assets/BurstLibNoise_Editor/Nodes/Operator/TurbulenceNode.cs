@@ -7,7 +7,7 @@ using UnityEditor;
 namespace NodeEditorFramework.BurstLibNoiseEditor
 {
 	[Node(false, "Operator/Turbulence")]
-	public class TurbulenceNode : BurstLibNoiseModule
+	public class TurbulenceNode : BurstLibNoiseNode
 	{
 		public const string ID = "turbulenceNode";
 		public override string GetID { get { return ID; } }
